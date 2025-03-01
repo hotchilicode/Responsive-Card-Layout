@@ -1,0 +1,77 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: white 5px solid;
+}
+
+.card {
+    background-color: rgb(135, 135, 142);
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    }
+
+.card-image {
+    background-color: rgb(84, 97, 97);
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+    background-image: url(1.png);
+
+}
+
+.card-2 {
+    background-image: url('https://clipart-library.com/new_gallery/237-2374262_emoji-emoticon-ok-gesture-smiley-png-image-with.png');
+
+}
+
+.card-3 {
+    background-image: url(2.png);
+
+}
+
+.card h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.card p {
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5em;
+
+
+}
+
+.card a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover {
+    background-color: #95a44a;
+    color: #000;
+    transform: scale(1.10);
+    transition: 1s all ease;
+}
+
+.card a:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
